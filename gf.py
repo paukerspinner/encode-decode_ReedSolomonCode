@@ -1,3 +1,4 @@
+''' Galois Field Library '''
 def gf_pow(x, power):
     return gf_exp[(gf_log[x] * power) % field_char]
 
